@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-mkdir -p /opt/jetbrains-launcher/
+sudo mkdir -p /opt/jetbrains-launcher/
 sudo cp -v *.sh /opt/jetbrains-launcher/
-sudo chown root:root /opt/jetbrains-launcher/*.sh
-sudo chmod 755 /opt/jetbrains-launcher/*.sh
+sudo chown -v root:root /opt/jetbrains-launcher/*.sh
+sudo chmod -v 755 /opt/jetbrains-launcher/*.sh
 
 names=( studio pycharm idea clion rubymine webstorm phpstorm goland rider datagrip dataspell )
 
